@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "layout.css";
+@font-face {
+  font-family: "Koliko";
+  src: url("fonts/koliko-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}

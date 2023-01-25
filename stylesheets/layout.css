@@ -1,0 +1,239 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+p {
+  font-family: "koliko";
+  font-size: 42px;
+  line-height: 50px;
+}
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+}
+.section1 {
+  height: 1300px;
+}
+.cloud-left {
+  position: absolute;
+  width: 390px;
+  top: 65px;
+  left: 100px;
+}
+.cloud-right {
+  position: absolute;
+  width: 840px;
+  bottom: 0px;
+  right: -160px;
+}
+.cloud-center {
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 800px;
+  top: 100px;
+}
+.cloud-center-logo {
+  position: absolute;
+  width: 615px;
+  height: 420px;
+  top: 170px;
+  left: 80px;
+  z-index: 1;
+}
+.cloud-center-img {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.logo {
+  position: absolute;
+  top: 200px;
+  left: 205px;
+}
+.yoga-s-samoedami {
+  position: absolute;
+  width: 100%;
+  animation: samoedi 10s linear infinite running;
+  z-index: 0;
+}
+@keyframes samoedi {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.more-text {
+  position: absolute;
+  display: inline-block;
+  padding: 28px 42px 24px 42px;
+  border-radius: 50px;
+  font-family: "koliko";
+  color: white;
+  background-color: #49acf3;
+}
+.more {
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+.arrow-1 {
+  position: relative;
+  margin: 0px 30px;
+  animation: arrow-1-animation 3s linear infinite;
+}
+@keyframes arrow-1-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.section2 {
+  height: 1578px;
+}
+.blue-bg {
+  position: absolute;
+  width: 100%;
+}
+.points {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+.arrow-2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  top: -45px;
+}
+.points-text {
+  position: relative;
+  display: inline-block;
+  width: 800px;
+  color: white;
+  z-index: 2;
+}
+.point-1 {
+  position: relative;
+  margin-top: 40px;
+}
+.clouds-row {
+  position: absolute;
+  top: 600px;
+  animation: clouds-row linear 4s infinite;
+}
+@keyframes clouds-row {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -2600px;
+  }
+}
+.section3 {
+  height: 1600px;
+  overflow-y: hidden;
+}
+.cloud-4 {
+  position: absolute;
+  width: 1155px;
+  right: -75px;
+  animation: clouds-4 4s linear infinite;
+}
+.cloud-4-img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.cloud-4-text {
+  position: absolute;
+  width: 590px;
+  top: 420px;
+  left: 340px;
+  z-index: 2;
+}
+.cloud-5 {
+  position: absolute;
+  width: 1155px;
+  top: 720px;
+  left: -75px;
+  animation: clouds-5 6s linear infinite;
+}
+.cloud-5-img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.cloud-5-text {
+  position: absolute;
+  width: 670px;
+  top: 515px;
+  left: 210px;
+  z-index: 2;
+}
+@keyframes clouds-4 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes clouds-5 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-70px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.section4 {
+  height: 900px;
+}
+.footer {
+  width: 100%;
+  height: 350px;
+  z-index: 0;
+}
+.welcome {
+  position: absolute;
+  background-image: url("../images/welcome.png");
+  background-size: contain;
+  width: 780px;
+  height: 780px;
+  z-index: 1;
+  right: 100px;
+  top: 60px;
+}
+.welcome:hover {
+  background-image: url("../images/welcome-hover.png");
+}
+.footer {
+  position: absolute;
+  background-color: #35b172;
+  bottom: 0px;
+}
+.footer-text {
+  position: relative;
+  color: white;
+  top: 130px;
+  left: 130px;
+  z-index: 2;
+}
